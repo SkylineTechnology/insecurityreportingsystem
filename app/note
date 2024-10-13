@@ -1,0 +1,6 @@
+<i class="fa fa-comment mr-1" ></i><b style="color:blueviolet;"><?php echo $compl_status; ?></b>
+
+
+if ($role != "admin") {
+    header("location:login");
+}
